@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input onchange="inpUno()" id="entrada" placeholder="escribe aquí">
+    <!--  Una de las formas para escuchar eventos en los inputs es colocar el siguiente atributo "onchange"  -->
+    <input onchange="inpDos()" id="entradaDos" placeholder="escribe aquí">
+    <!-- Para escuchar un evento en un boton una de las formas es utilizar el onclik -->
+    <button onclick="btOnClick()" id="btCalcular">Calcular</button>    
+    <p id="a">
+        
+    </p>
+    <!-- Se debe de llamar al ultimo al archivo .js para que todos los elementos que se utilicen en él se hayan 
+        inicializado previamente.  -->
+    <script src="eventosDeAccion.js"></script> 
+</body>
+</html>
