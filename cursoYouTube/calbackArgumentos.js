@@ -32,3 +32,14 @@ const despedida = function(){
 }
 
 ejecutar(despedida);
+
+function ejecutarFuncionConParametro(funcion, texto){
+    let textoRecibido = texto;
+    funcion(textoRecibido);
+}
+
+function mostrarMensaje(texto){
+    console.log(texto);
+}
+
+ejecutarFuncionConParametro(mostrarMensaje, 'soy el texto que se ha mandado como parametro!! ');
