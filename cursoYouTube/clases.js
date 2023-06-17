@@ -1,4 +1,4 @@
-//
+
 class Persona {
 
     constructor(nombre, apellido) 
@@ -32,5 +32,6 @@ class Persona {
 
         Con los métodos get y set no es necesario utilizar los parentesis para invocarlos, para cambiar el valor de las
         variables debemos utilizar los métodos get y set 
+    *   Las clases no gozan de hoisting 
     */
 }
